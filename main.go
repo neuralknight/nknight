@@ -4,7 +4,7 @@ import (
 	"flag"
 	"net/url"
 
-	"github.com/neuralknight/neuralknight/nknight/nknight"
+	"github.com/neuralknight/nknight/nknight"
 	log "github.com/sirupsen/logrus"
 )
 
