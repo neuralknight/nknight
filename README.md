@@ -1,16 +1,14 @@
-# neuralknight
+# nknight cli for neuralknight
 
-[![Build Status](https://travis-ci.org/neuralknight/neuralknight.svg?branch=master)](https://travis-ci.org/neuralknight/neuralknight)
-[![Coverage Status](https://coveralls.io/repos/github/neuralknight/neuralknight/badge.svg?branch=master)](https://coveralls.io/github/neuralknight/neuralknight?branch=master)
+[![Build Status](https://travis-ci.org/neuralknight/nknight.svg?branch=master)](https://travis-ci.org/neuralknight/nknight)
+[![Coverage Status](https://coveralls.io/repos/github/neuralknight/nknight/badge.svg?branch=master)](https://coveralls.io/github/neuralknight/nknight?branch=master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/607629cbbfb84369ae2e2eb15057ee25)](https://www.codacy.com/project/grandquista/nknight/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=neuralknight/nknight&amp;utm_campaign=Badge_Grade_Dashboard)
 
 Rebuild of https://github.com/dsnowb/neuralknight in go.
 
 **Authors**: David Snowberger, Shannon Tully, Adam Grandquist
 
-**Version**: 1.0.0
-
-## Overview
-An occasionally suicidal shell-based chess game.
+**Version**: 2.0.0
 
 ## Getting Started
 
@@ -20,11 +18,11 @@ An occasionally suicidal shell-based chess game.
 
 ### Installation
 Installation is as simple as installing from pip:
-`pip install neuralknight`
+`go get nknight`
 
 #### Running the app
 To launch neuralknight, type the following into a shell:
-`neuralknight https://neuralknight.herokuapp.com`
+`nknight https://neuralknight.herokuapp.com`
 
 Should you wish to run a purely local instance:
 
@@ -38,7 +36,7 @@ From inside the source directory:
 
 - Launch the local server with
 `pserve production.ini`
-- In another shell, run the client with `neuralknight`
+- In another shell, run the client with `nknight`
 
 ## Architecture
 This app is written using Python 3.6, Pyramid, and Postgres, with Heroku as a deployment platform
