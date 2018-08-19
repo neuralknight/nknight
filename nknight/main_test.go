@@ -51,7 +51,7 @@ func (s *NKnightSuite) TearDownTest(c *C) {
 	db, _ := gorm.Open("sqlite3", "chess.db")
 	db = db.Begin()
 	defer db.Commit()
-	db.DropTableIfExists("game_models", "agent_models")
+	db.DropTableIfExists("board_models", "agent_models")
 }
 
 func (s *NKnightSuite) TearDownSuite(c *C) {
