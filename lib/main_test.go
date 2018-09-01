@@ -10,7 +10,7 @@ import (
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
 	"github.com/neuralknight/backend-views"
-	"github.com/neuralknight/nknight/nknight"
+	"github.com/neuralknight/nknight/lib"
 	. "gopkg.in/check.v1"
 )
 
