@@ -18,6 +18,8 @@ github.com/go-sql-driver/mysql v1.4.1 h1:g24URVg0OFbNUTx9qqY1IRZ9D9z3iPyi5zKhQZp
 github.com/go-sql-driver/mysql v1.4.1/go.mod h1:zAC/RDZ24gD3HViQzih4MyKcchzm+sOG5ZlKdlhCg5w=
 github.com/gofrs/uuid v3.1.0+incompatible h1:q2rtkjaKT4YEr6E1kamy0Ha4RtepWlQBedyHx0uzKwA=
 github.com/gofrs/uuid v3.1.0+incompatible/go.mod h1:b2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=
+github.com/gofrs/uuid v3.2.0+incompatible h1:y12jRkkFxsd7GpqdSZ+/KCs/fJbqpEXSGd4+jfEaewE=
+github.com/gofrs/uuid v3.2.0+incompatible/go.mod h1:b2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=
 github.com/golang/protobuf v1.2.0/go.mod h1:6lQm79b+lXiMfvg/cZm0SGofjICqVBUtrP5yJMmIC1U=
 github.com/google/go-cmp v0.2.0 h1:+dTQ8DZQJz0Mb/HjFlkptS1FeQ4cWSnN941F8aEG4SQ=
 github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
@@ -44,6 +46,8 @@ github.com/leanovate/gopter v0.2.2 h1:3xTdawAVXlqePkgram0u+w6aMFn1RmOLbjzsI32jwp
 github.com/leanovate/gopter v0.2.2/go.mod h1:gNcbPWNEWRe4lm+bycKqxUYoH5uoVje5SkOJ3uoLer8=
 github.com/leanovate/gopter v0.2.3 h1:IRW4Igto5sdZzmRZm3yF19JffNhOxI/knv4j8pKT+3o=
 github.com/leanovate/gopter v0.2.3/go.mod h1:gNcbPWNEWRe4lm+bycKqxUYoH5uoVje5SkOJ3uoLer8=
+github.com/leanovate/gopter v0.2.4 h1:U4YLBggDFhJdqQsG4Na2zX7joVTky9vHaj/AGEwSuXU=
+github.com/leanovate/gopter v0.2.4/go.mod h1:gNcbPWNEWRe4lm+bycKqxUYoH5uoVje5SkOJ3uoLer8=
 github.com/lib/pq v1.0.0 h1:X5PMW56eZitiTeO7tKzZxFCSpbFZJtkMMooicw2us9A=
 github.com/lib/pq v1.0.0/go.mod h1:5WUZQaWbwv1U+lTReE5YruASi9Al49XbQIvNi/34Woo=
 github.com/mattn/go-sqlite3 v1.9.0 h1:pDRiWfl+++eC2FEFRy6jXmQlvp4Yh3z1MJKg4UeYM/4=
@@ -56,12 +60,16 @@ github.com/neuralknight/backend-models v0.0.0-20181114002032-bd3f79a01ba3 h1:/We
 github.com/neuralknight/backend-models v0.0.0-20181114002032-bd3f79a01ba3/go.mod h1:dYGN2RjlK6HJKo3H3wuxxt/8CHJyvG+imFab2yD+RCQ=
 github.com/neuralknight/backend-models v0.0.0-20181202234922-4114c120d538 h1:BFl7zpCq3PKUTG1CZDyELgmKoLbchUdoEu/HBSplMok=
 github.com/neuralknight/backend-models v0.0.0-20181202234922-4114c120d538/go.mod h1:XdKS6F911b4Lhl+9xAIcWL/Xy30d0Mglv432ulHLEaE=
+github.com/neuralknight/backend-models v0.0.0-20190117020520-37197a1bc99c h1:oNiGf1VEMuMFST0WKNU+nfp8WWLS9/dDF8jgS/H8QbY=
+github.com/neuralknight/backend-models v0.0.0-20190117020520-37197a1bc99c/go.mod h1:u5GCWmTyrW7reqbfiH3r4c1YOEj0RBBTZO/yNyN9pyw=
 github.com/neuralknight/backend-views v0.0.0-20181025052249-fc8979d1f5f5 h1:RkvXEcZrSRqSfbVqsoexOQd62nOXgSq975NDl/L4i1g=
 github.com/neuralknight/backend-views v0.0.0-20181025052249-fc8979d1f5f5/go.mod h1:4Ai5p34WjvSqxfTpdBke5cI2j61bPnE7vWRcio7P2XE=
 github.com/neuralknight/backend-views v0.0.0-20181114155622-6c6ad2f9cef7 h1:U+URQzEQ9xdTmaJhUXl1jamzse+7JUnRUKBHV9ACcIU=
 github.com/neuralknight/backend-views v0.0.0-20181114155622-6c6ad2f9cef7/go.mod h1:cQtH32ll9XQNVCifWcuSogAKzSzsY+KbBM541/rCZ4Y=
 github.com/neuralknight/backend-views v0.0.0-20181210000332-403e75ba7b3d h1:qh3jGZ6mmR3oh2ORQwwxHtuOeS8YefZ9DVXy3rkSsRs=
 github.com/neuralknight/backend-views v0.0.0-20181210000332-403e75ba7b3d/go.mod h1:mczhYrF+30UsyB/5X3za/KKnprrc/V+A2MxoFbboals=
+github.com/neuralknight/backend-views v0.0.0-20190112161726-b5f89d54f3a7 h1:snFMmtzMKL6GLLWG6blbnOnr1CuOoi5bcArX59uvG7s=
+github.com/neuralknight/backend-views v0.0.0-20190112161726-b5f89d54f3a7/go.mod h1:/85J7gWz8XZ1sls7Gg35Y9DvbU8DP+lX6ZwEKbZwc4Q=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/satori/go.uuid v1.2.0 h1:0uYX9dsZ2yD7q2RtLRtPSdGDWzjeM3TbMJP9utgA0ww=
