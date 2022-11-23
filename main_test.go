@@ -7,7 +7,7 @@ import (
 
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/sqlite"
-	"github.com/neuralknight/backend-views"
+	views "github.com/neuralknight/backend-views"
 	log "github.com/sirupsen/logrus"
 	. "gopkg.in/check.v1"
 )

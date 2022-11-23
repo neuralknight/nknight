@@ -4,8 +4,8 @@ go 1.19
 
 require (
 	github.com/jinzhu/gorm v1.9.16
-	github.com/neuralknight/backend-models v0.0.0-20211231015150-dcabda73672e
-	github.com/neuralknight/backend-views v0.0.0-20211231015103-6d75ca1db5fc
+	github.com/neuralknight/backend-models v0.0.0-20221123005720-0cc8a55e2447
+	github.com/neuralknight/backend-views v0.0.0-20221123010712-81f63369359d
 	github.com/sirupsen/logrus v1.9.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 )

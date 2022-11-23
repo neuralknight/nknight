@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/neuralknight/backend-models"
+	models "github.com/neuralknight/backend-models"
 	log "github.com/sirupsen/logrus"
 )
 
